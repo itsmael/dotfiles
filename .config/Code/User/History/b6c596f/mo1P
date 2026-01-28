@@ -1,0 +1,83 @@
+// =================================================================
+// WAYBAR CONFIG - HUD EVA STATUS (VERSÃO REGENERADA)
+// Minimalista, Funcional e Estável.
+// =================================================================
+{
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "height": 30,
+  "spacing": 0,
+
+  // ESQUERDA: Apenas Workspaces (Números)
+  "modules-left": ["hyprland/workspaces"], 
+  
+  // CENTRO: Limpo, focado no minimalismo
+  "modules-center": [], 
+  
+  // DIREITA: Status Completo (Performance, Áudio, Rede, Bateria, Relógio)
+  "modules-right": [
+    "cpu", 
+    "memory", 
+    "pulseaudio", 
+    "network", 
+    "battery", 
+    "clock"
+  ],
+
+  // --- MÓDULOS ---
+  
+  "hyprland/workspaces": {
+    "format": "{name}", // Mostra APENAS o número do Workspace
+    "on-click": "activate"
+  },
+
+  "cpu": {
+    "format": "CPU: {usage}% ", // Ícone Nerd Font () para garantir rendering
+    "tooltip": true
+  },
+  
+  "memory": {
+    "format": "RAM: {}% ", // Ícone Nerd Font () para RAM
+    "tooltip": true
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%", // Ícone Nerd Font () para Volume
+    "tooltip": false,
+    "scroll-step": 5, 
+    "format-muted": " Muted", // Ícone de mudo
+    "format-icons": {
+        "default": ""
+    },
+    "on-click": "pavucontrol" // Abre o Pavucontrol ao clicar
+  },
+
+  "network": {
+    "format-wifi": "", // Ícone Nerd Font () para Wi-Fi, sem ESSID
+    "format-ethernet": "󰈀",
+    "format-disconnected": "", // Ícone de alerta
+    "format-icons": {
+        "default": "",
+        "connected": "",
+        "disconnected": "",
+        "ethernet": "󰈀"
+    },
+    "on-click": "nm-connection-editor" // Abre o Gerenciador de Rede
+  },
+  
+  "battery": {
+    "states": {
+      "good": 90,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "⏚ {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "clock": {
+    "format": "⏰ {:%H:%M:%S}"
+  }
+}

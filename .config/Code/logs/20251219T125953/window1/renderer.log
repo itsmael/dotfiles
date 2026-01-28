@@ -1,0 +1,11 @@
+2025-12-19 12:59:54.296 [info] Started local extension host with pid 4839.
+2025-12-19 12:59:56.168 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-19 12:59:56.244 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-19 12:59:57.325 [info] [perf] Render performance baseline is 37ms
+2025-12-19 13:00:51.019 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf
+2025-12-19 13:00:57.320 [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf
+2025-12-19 13:00:58.585 [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf
+2025-12-19 13:01:01.388 [error] [text file model] handleSaveError(7) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf
+2025-12-19 13:01:04.476 [error] [text file model] handleSaveError(10) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf
+2025-12-19 13:01:07.592 [error] [text file model] handleSaveError(12) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf
+2025-12-19 13:01:15.221 [error] [text file model] handleSaveError(12) - exit - resulted in a save error: Error: Unable to write file '/home/odin/.config/hypr/hyprland.conf' (Error: File Modified Since) file:///home/odin/.config/hypr/hyprland.conf

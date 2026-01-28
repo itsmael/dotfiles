@@ -1,0 +1,75 @@
+/* =================================================================
+// WAYBAR CSS - GRUVBOX DESTAQUE (CORREÇÃO DE FUNDO SÓLIDO)
+// ================================================================= */
+
+/* --- VARIÁVEIS GRUVBOX --- (Manter as mesmas) */
+@define-color base00 #282828; 
+@define-color base01 #3c3836; 
+@define-color base04 #bdae93; 
+@define-color yellow #fabd2f; 
+@define-color red #fb4934; 
+@define-color orange #fe8019; 
+@define-color base07 #ebdbb2;
+
+/* 1. ESTILO GERAL: Altura Mínima e Transparência */
+#waybar {
+    background-color: transparent; 
+    color: @base07; 
+    font-family: "JetBrains Mono Nerd Font", sans-serif;
+    font-size: 13px;
+    margin: 10px 10px 0px 10px; 
+    
+    /* ADIÇÃO CRUCIAL: Definir a altura do container principal */
+    min-height: 34px; 
+}
+
+
+/* 2. ILHA ESQUERDA (WORKSPACES) - Fundo Sólido */
+#modules-left {
+    /* Usamos o tom mais escuro do Gruvbox como fundo da ilha (SÓLIDO) */
+    background-color: @base00; /* #282828 SÓLIDO */
+    border-radius: 12px;
+    padding: 0 5px; 
+    border: 1px solid @base04; 
+}
+
+/* 3. ILHA DIREITA (STATUS) - Fundo Sólido */
+#modules-right {
+    background-color: @base00; /* #282828 SÓLIDO */
+    border-radius: 12px;
+    padding: 0 5px;
+    border: 1px solid @base04; 
+}
+
+
+/* 4. MÓDULOS INTERNOS: Limpeza de Fundo */
+
+/* Workspaces */
+#workspaces button {
+    background-color: transparent; /* Importante: Garante que o fundo da ilha se mostre */
+    color: @base03; 
+    padding: 0 8px;
+    /* Linha Ativa com cor Retro (Amarelo) */
+    border-bottom: 2px solid transparent; 
+}
+#workspaces button.active {
+    color: @yellow; 
+    border-bottom-color: @yellow; 
+    /* Adicionando um leve fundo para destaque, se necessário: */
+    /* background-color: rgba(250, 189, 47, 0.1); */
+}
+
+
+/* MÓDULOS DE STATUS (CPU, RAM, etc.) */
+#cpu, #memory, #network, #battery, #pulseaudio, #clock {
+    background-color: transparent; /* FUNDAMENTAL: Módulos NÃO podem ter fundo próprio */
+    color: @base07; 
+    /* ... o resto do estilo se mantém ... */
+}
+
+/* RELÓGIO */
+#clock {
+    color: @orange; /* Laranja Gruvbox */
+    border-right: none; 
+    padding: 0 10px;
+}

@@ -1,0 +1,30 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+
+[os]
+disabled = false
+format = "[$symbol ]($style)"
+
+[os.symbols]
+Arch = "󰣇 "
+
+
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+#[battery]
+#format = "[$symbol$percentage]($style) "
+#[[battery.display]]
+#threshold = 50
+#style = "bold red"
+#[[battery.display]]
+#threshold = 100
+#style = "white"

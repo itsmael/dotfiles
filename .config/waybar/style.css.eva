@@ -1,0 +1,54 @@
+/* Variáveis de Cor (Neo-Tokyo Palette) */
+@define-color purple_neon #8B008B;
+@define-color green_neon #39FF14;
+@define-color background_dark #1A1A2E; 
+@define-color warning_red #FF4500;
+
+/* Estilo Geral: Fundo Escuro, Borda Neon */
+#waybar {
+    background-color: rgba(26, 26, 46, 0.7); /* Fundo escuro semi-transparente */
+    color: #D9E0EE; /* Cor de texto padrão */
+    border-bottom: 3px solid @purple_neon; /* Borda inferior Roxo EVA-01 */
+    border-radius: 0; /* Bordas retas são mais cyberpunk */
+    font-family: "AnonymicePro Nerd Font", Mononoki, sans-serif; 
+    font-size: 13px;
+}
+
+/* Módulos (Separadores Visuais de HUD) */
+#workspaces, #clock, #battery, #cpu, #memory, #custom-start {
+    background-color: transparent;
+    border-right: 1px solid rgba(139, 0, 139, 0.4); /* Linha divisória sutil */
+    padding: 0 10px;
+    margin: 0;
+}
+
+/* Indicador de Workspace Ativo (O Foco do Piloto) */
+#workspaces button {
+    background-color: transparent;
+    color: #6C7A89; /* Cor discreta para inativos */
+    border: none;
+    padding: 0 10px;
+}
+#workspaces button.active {
+    color: @green_neon; /* Verde Neon quando ativo */
+    border-bottom: 2px solid @green_neon;
+}
+
+/* Alerta Crítico (Bateria - O Alarme do Núcleo) */
+#battery.warning, #battery.critical {
+    background-color: @warning_red; 
+    color: #1A1A2E; 
+    font-weight: bold;
+}
+
+/* Relógio (O display de tempo) */
+#clock {
+    color: @green_neon;
+    font-weight: bold;
+}
+
+/* Módulo de Rede para destaque */
+#network {
+    color: @green_neon; 
+    font-weight: bold;
+}

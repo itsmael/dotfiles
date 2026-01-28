@@ -1,0 +1,71 @@
+/* =================================================================
+// WAYBAR CSS - EVA NEON STYLE (VERSÃO FINAL)
+// ================================================================= */
+
+@define-color purple_neon #8B008B;
+@define-color green_neon #39FF14;
+@define-color background_dark #1A1A2E; 
+@define-color warning_red #FF4500;
+
+
+/* Estilo Geral: HUD Semi-Transparente com Borda */
+#waybar {
+    background-color: transparent; 
+    border-bottom: 3px solid @purple_neon; 
+    margin: 10px 10px 0px 10px;
+    /* CORRIGIDO: Usando a variante Mono, que é mais precisa para Waybar. */
+    /* Adicionando Font Awesome 6 como fallback universal para os ícones. */
+    font-family: "Font Awesome 6 Free", sans-serif; 
+
+    font-size: 13px;
+}
+
+#modules-left {
+    background-color: #3c3836; /* Fundo da Ilha */
+    border-radius: 12px;
+}
+
+
+/* WORKSPACES: Apenas números */
+#workspaces button {
+    background-color: transparent;
+    color: #6C7A89; 
+    padding: 0 10px;
+}
+#workspaces button.active {
+    color: @green_neon; 
+    border-bottom: 2px solid @green_neon;
+}
+
+/* MÓDULOS DE STATUS (Verde Neon) */
+#cpu, #memory, #network, #battery, #pulseaudio, #clock {
+    color: @green_neon; 
+    font-weight: bold;
+    background-color: transparent;
+    border-right: 1px solid rgba(139, 0, 139, 0.4); /* Divisória sutil */
+    padding: 0 10px;
+
+   /* font-family: "AnonymicePro Nerd Font", sans-serif;*/
+  }
+
+/* BATERIA: Mantém verde neon constante, só muda no CRÍTICO */
+#battery.warning {
+    color: @green_neon; 
+    background-color: transparent;
+}
+
+/* BATERIA: Alerta CRÍTICO (Modo Berserk) */
+#battery.critical {
+    background-color: @warning_red; 
+    color: #1A1A2E; 
+}
+
+/* ÁUDIO MUTADO (Alerta) */
+#pulseaudio.muted {
+    color: @warning_red; 
+}
+
+/* RELÓGIO */
+#clock {
+    border-right: none; /* Último módulo não precisa de borda */
+}

@@ -1,0 +1,18 @@
+[ContentDisplay]
+UseShortRelativeDates=false
+
+[General]
+GlobalViewProps=false
+SortingChoice=CaseInsensitiveSorting
+Version=202
+ViewPropsTimestamp=2025,12,5,21,48,24.547
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,cursorthumbnail,audiothumbnail,djvuthumbnail,glycin-heif,comicbookthumbnail,opendocumentthumbnail,kraorathumbnail,ebookthumbnail,windowsexethumbnail,glycin-image-rs,glycin-svg,imagethumbnail,windowsimagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,glycin-jxl,directorythumbnail

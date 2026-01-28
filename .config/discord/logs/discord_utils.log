@@ -1,0 +1,48 @@
+[2025-Dec-16 15:12:50.655 -03:00][11627:11627][info ] Logging initialized
+[2025-Dec-16 17:04:43.819 -03:00][ 6037: 6037][info ] Logging initialized
+[2025-Dec-17 17:40:28.970 -03:00][ 6037: 6074][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 51.101564ms
+[2025-Dec-17 17:40:31.330 -03:00][ 6037: 6074][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 74.705696ms
+[2025-Dec-20 18:56:54.312 -03:00][26382:26382][info ] Logging initialized
+[2025-Dec-20 18:57:08.723 -03:00][26382:26418][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 51.508517ms
+[2025-Dec-22 09:08:53.585 -03:00][26382:26418][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 79.771586ms
+[2025-Dec-23 17:11:35.073 -03:00][43932:43932][info ] Logging initialized
+[2025-Dec-25 14:24:17.993 -03:00][43932:43952][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 136.086614ms
+[2025-Dec-25 14:24:17.999 -03:00][43932:43952][info ] Long Queue Time for store 'Utils'. Task 'SetGameCandidateOverrides' queued for 133.60468ms
+[2025-Dec-25 14:24:17.999 -03:00][43932:43952][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionCallback' queued for 132.371917ms
+[2025-Dec-25 14:24:17.999 -03:00][43932:43952][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionErrorCallback' queued for 131.904299ms
+[2025-Dec-25 14:24:20.861 -03:00][43932:43952][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 74.280207ms
+[2025-Dec-26 16:54:14.367 -03:00][11632:11632][info ] Logging initialized
+[2025-Dec-28 13:23:53.672 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 168.613777ms
+[2025-Dec-28 13:23:53.692 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetGameCandidateOverrides' queued for 177.634318ms
+[2025-Dec-28 13:23:53.692 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionCallback' queued for 177.015013ms
+[2025-Dec-28 13:23:53.692 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionErrorCallback' queued for 175.391701ms
+[2025-Dec-28 13:23:56.432 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 51.780941ms
+[2025-Dec-29 13:26:41.720 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 78.524887ms
+[2025-Dec-29 13:26:43.076 -03:00][11632:11653][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 70.503781ms
+[2025-Dec-29 17:01:58.458 -03:00][23404:23404][info ] Logging initialized
+[2025-Dec-30 17:39:44.807 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 110.636443ms
+[2025-Dec-30 17:39:44.813 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameCandidateOverrides' queued for 108.131105ms
+[2025-Dec-30 17:39:44.813 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionCallback' queued for 107.446703ms
+[2025-Dec-30 17:39:44.813 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionErrorCallback' queued for 106.08481ms
+[2025-Dec-30 17:39:47.431 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 87.573319ms
+[2025-Dec-31 20:58:15.541 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 83.256104ms
+[2025-Dec-31 20:58:17.610 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 55.342656ms
+[2026-Jan-02 00:24:29.441 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 83.706453ms
+[2026-Jan-02 00:24:31.526 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 53.168154ms
+[2026-Jan-03 11:25:07.838 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 142.138454ms
+[2026-Jan-03 11:25:07.849 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameCandidateOverrides' queued for 137.679338ms
+[2026-Jan-03 11:25:07.849 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionCallback' queued for 136.559025ms
+[2026-Jan-03 11:25:07.849 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionErrorCallback' queued for 136.028239ms
+[2026-Jan-03 11:25:10.793 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 65.500022ms
+[2026-Jan-04 14:57:13.510 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 93.409208ms
+[2026-Jan-04 14:57:15.943 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 59.304641ms
+[2026-Jan-05 15:44:15.992 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 106.403854ms
+[2026-Jan-05 15:44:15.997 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameCandidateOverrides' queued for 102.823689ms
+[2026-Jan-05 15:44:15.997 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionCallback' queued for 101.515249ms
+[2026-Jan-05 15:44:15.997 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionErrorCallback' queued for 101.132472ms
+[2026-Jan-05 15:44:19.532 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 69.633213ms
+[2026-Jan-06 16:09:17.727 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 155.411421ms
+[2026-Jan-06 16:09:17.734 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameCandidateOverrides' queued for 147.099161ms
+[2026-Jan-06 16:09:17.734 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionCallback' queued for 145.333653ms
+[2026-Jan-06 16:09:17.734 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetGameDetectionErrorCallback' queued for 144.209758ms
+[2026-Jan-06 16:09:20.813 -03:00][23404:23423][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 81.994189ms

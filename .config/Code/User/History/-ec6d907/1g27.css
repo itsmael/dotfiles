@@ -1,0 +1,98 @@
+/* =================================================================
+// WAYBAR CSS - GRUVBOX RETRO ANIME (ILHAS DUPLAS)
+// =IX-Foco: Módulos-LEFT e Módulos-RIGHT como blocos arredondados flutuantes
+// ================================================================= */
+
+/* --- VARIÁVEIS GRUVBOX --- */
+@define-color base00 #282828; /* Fundo principal Dark */
+@define-color base01 #3c3836; /* Fundo Medium (Cor das Ilhas) */
+@define-color base02 #504945; /* Fundo Light Medium */
+@define-color base03 #665c54; /* Suave */
+@define-color base04 #bdae93; /* Texto Suave */
+@define-color base07 #ebdbb2; /* Texto Padrão (Foreground) */
+@define-color yellow #fabd2f; /* Amarelo (Destaque Retro) */
+@define-color red #fb4934; /* Vermelho (Foco/Alerta) */
+@define-color green #b8bb26; /* Verde */
+@define-color blue #83a598; /* Azul */
+@define-color orange #fe8019; /* Laranja (Clock/Acentos) */
+
+
+/* 1. ESTILO GERAL: Transparente e Flutuante */
+#waybar {
+    background-color: transparent; 
+    color: @base07; 
+    font-family: "JetBrains Mono Nerd Font", sans-serif; /* Perfeição Monospace/Nerd */
+    font-size: 13px;
+    margin: 10px 10px 0px 10px; /* Margem para flutuar nos cantos */
+}
+
+
+/* 2. ILHA ESQUERDA (WORKSPACES) */
+#modules-left {
+    background-color: @base01; /* Fundo Gruvbox Dark Medium */
+    border-radius: 12px;
+    padding: 0 5px; 
+    border: 1px solid @base02; /* Borda Suave para definir o bloco */
+}
+
+/* 3. ILHA DIREITA (STATUS) - CORREÇÃO CRUCIAL */
+#modules-right {
+    background-color: @base01; /* Fundo Gruvbox Dark Medium */
+    border-radius: 12px;
+    padding: 0 5px;
+    border: 1px solid @base02; /* Borda Suave para definir o bloco */
+}
+
+
+/* 4. WORKSPACES (Gruvbox Coeso) */
+#workspaces button {
+    background-color: transparent;
+    color: @base03; /* Cinza Suave para inativos */
+    padding: 0 8px;
+    transition: all 0.2s ease-in-out;
+}
+#workspaces button.active {
+    color: @yellow; /* Amarelo Gruvbox (Destaque Retro) */
+    /* opcional: border-bottom: 2px solid @yellow; */ 
+}
+
+
+/* 5. MÓDULOS DE STATUS (Gruvbox) */
+#cpu, #memory, #network, #battery, #pulseaudio {
+    color: @base07; /* Texto Padrão */
+    font-weight: normal;
+    background-color: transparent; 
+    /* Divisória interna Gruvbox - sutil e limpa */
+    border-right: 1px solid @base02; 
+    padding: 0 10px;
+}
+
+/* RELÓGIO (Toque Retro em Laranja) */
+#clock {
+    color: @orange; /* Laranja Gruvbox para o Relógio */
+    border-right: none; 
+    padding: 0 10px;
+}
+
+
+/* 6. ALERTA E DESTAQUES */
+
+/* ÁUDIO MUDO / BATERIA CRÍTICA */
+#pulseaudio.muted, #battery.critical {
+    color: @red; /* Vermelho Gruvbox para Alerta */
+    font-weight: bold;
+}
+
+/* BATERIA CRÍTICA (Modo Alerta Retro) */
+#battery.critical {
+    background-color: @red; 
+    color: @base00; /* Texto escuro no fundo vermelho */
+}
+
+/* Efeito Hover Sutil */
+#modules-right > * {
+    transition: background-color 0.1s ease;
+}
+#modules-right > *:hover {
+    background-color: rgba(250, 189, 47, 0.1); /* Brilho suave Amarelo Gruvbox no hover */
+}

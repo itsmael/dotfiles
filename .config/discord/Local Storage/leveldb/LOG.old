@@ -1,0 +1,223 @@
+2025/12/29-17:01:55.121 5b0f Reusing MANIFEST /home/odin/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/12/29-17:01:55.128 5b0f Recovering log #136
+2025/12/29-17:01:55.170 5b0f Level-0 table #139: started
+2025/12/29-17:01:55.223 5b0f Level-0 table #139: 4212360 bytes OK
+2025/12/29-17:01:55.233 5b0f Delete type=0 #136
+2025/12/29-17:01:55.235 5b0f Compacting 4@0 + 2@1 files
+2025/12/29-17:01:55.340 5b0f Generated table #141@0: 15 keys, 4208940 bytes
+2025/12/29-17:01:55.347 5b0f Generated table #142@0: 53 keys, 151264 bytes
+2025/12/29-17:01:55.347 5b0f Compacted 4@0 + 2@1 files => 4360204 bytes
+2025/12/29-17:01:55.353 5b0f compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-17:01:55.353 5b0f Delete type=2 #130
+2025/12/29-17:01:55.353 5b0f Delete type=2 #131
+2025/12/29-17:01:55.353 5b0f Delete type=2 #133
+2025/12/29-17:01:55.353 5b0f Delete type=2 #135
+2025/12/29-17:01:55.353 5b0f Delete type=2 #137
+2025/12/29-17:01:55.353 5b0f Delete type=2 #139
+2025/12/29-17:12:44.711 5b10 Level-0 table #144: started
+2025/12/29-17:12:44.781 5b10 Level-0 table #144: 4217664 bytes OK
+2025/12/29-17:12:44.789 5b10 Delete type=0 #140
+2025/12/29-17:13:02.736 5b10 Level-0 table #146: started
+2025/12/29-17:13:02.747 5b10 Level-0 table #146: 40469 bytes OK
+2025/12/29-17:13:02.753 5b10 Delete type=0 #143
+2025/12/29-17:13:33.774 5b10 Level-0 table #148: started
+2025/12/29-17:13:33.784 5b10 Level-0 table #148: 37093 bytes OK
+2025/12/29-17:13:33.791 5b10 Delete type=0 #145
+2025/12/29-17:16:56.030 5b10 Level-0 table #150: started
+2025/12/29-17:16:56.041 5b10 Level-0 table #150: 37933 bytes OK
+2025/12/29-17:16:56.048 5b10 Delete type=0 #147
+2025/12/29-17:16:56.048 5b10 Compacting 4@0 + 2@1 files
+2025/12/29-17:16:56.142 5b10 Generated table #151@0: 15 keys, 4208493 bytes
+2025/12/29-17:16:56.149 5b10 Generated table #152@0: 53 keys, 151101 bytes
+2025/12/29-17:16:56.150 5b10 Compacted 4@0 + 2@1 files => 4359594 bytes
+2025/12/29-17:16:56.156 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-17:16:56.156 5b10 Delete type=2 #141
+2025/12/29-17:16:56.157 5b10 Delete type=2 #142
+2025/12/29-17:16:56.157 5b10 Delete type=2 #144
+2025/12/29-17:16:56.157 5b10 Delete type=2 #146
+2025/12/29-17:16:56.157 5b10 Delete type=2 #148
+2025/12/29-17:16:56.157 5b10 Delete type=2 #150
+2025/12/29-17:21:56.031 5b10 Level-0 table #154: started
+2025/12/29-17:21:56.042 5b10 Level-0 table #154: 40174 bytes OK
+2025/12/29-17:21:56.048 5b10 Delete type=0 #149
+2025/12/29-17:25:56.031 5b10 Level-0 table #156: started
+2025/12/29-17:25:56.042 5b10 Level-0 table #156: 33622 bytes OK
+2025/12/29-17:25:56.049 5b10 Delete type=0 #153
+2025/12/29-17:29:56.031 5b10 Level-0 table #158: started
+2025/12/29-17:29:56.042 5b10 Level-0 table #158: 35048 bytes OK
+2025/12/29-17:29:56.049 5b10 Delete type=0 #155
+2025/12/29-17:33:56.031 5b10 Level-0 table #160: started
+2025/12/29-17:33:56.042 5b10 Level-0 table #160: 36056 bytes OK
+2025/12/29-17:33:56.048 5b10 Delete type=0 #157
+2025/12/29-17:33:56.049 5b10 Compacting 4@0 + 2@1 files
+2025/12/29-17:33:56.124 5b10 Generated table #161@0: 15 keys, 4209751 bytes
+2025/12/29-17:33:56.130 5b10 Generated table #162@0: 53 keys, 151099 bytes
+2025/12/29-17:33:56.131 5b10 Compacted 4@0 + 2@1 files => 4360850 bytes
+2025/12/29-17:33:56.137 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-17:33:56.137 5b10 Delete type=2 #151
+2025/12/29-17:33:56.137 5b10 Delete type=2 #152
+2025/12/29-17:33:56.137 5b10 Delete type=2 #154
+2025/12/29-17:33:56.138 5b10 Delete type=2 #156
+2025/12/29-17:33:56.138 5b10 Delete type=2 #158
+2025/12/29-17:33:56.138 5b10 Delete type=2 #160
+2025/12/29-17:37:56.031 5b0f Level-0 table #164: started
+2025/12/29-17:37:56.042 5b0f Level-0 table #164: 36058 bytes OK
+2025/12/29-17:37:56.048 5b0f Delete type=0 #159
+2025/12/29-17:41:56.031 5b10 Level-0 table #166: started
+2025/12/29-17:41:56.042 5b10 Level-0 table #166: 36404 bytes OK
+2025/12/29-17:41:56.049 5b10 Delete type=0 #163
+2025/12/29-17:45:56.031 5b10 Level-0 table #168: started
+2025/12/29-17:45:56.042 5b10 Level-0 table #168: 36450 bytes OK
+2025/12/29-17:45:56.048 5b10 Delete type=0 #165
+2025/12/29-17:49:56.031 5b10 Level-0 table #170: started
+2025/12/29-17:49:56.042 5b10 Level-0 table #170: 36377 bytes OK
+2025/12/29-17:49:56.048 5b10 Delete type=0 #167
+2025/12/29-17:49:56.048 5b10 Compacting 4@0 + 2@1 files
+2025/12/29-17:49:56.125 5b10 Generated table #171@0: 15 keys, 4209797 bytes
+2025/12/29-17:49:56.131 5b10 Generated table #172@0: 53 keys, 151097 bytes
+2025/12/29-17:49:56.131 5b10 Compacted 4@0 + 2@1 files => 4360894 bytes
+2025/12/29-17:49:56.137 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-17:49:56.138 5b10 Delete type=2 #161
+2025/12/29-17:49:56.138 5b10 Delete type=2 #162
+2025/12/29-17:49:56.138 5b10 Delete type=2 #164
+2025/12/29-17:49:56.139 5b10 Delete type=2 #166
+2025/12/29-17:49:56.139 5b10 Delete type=2 #168
+2025/12/29-17:49:56.139 5b10 Delete type=2 #170
+2025/12/29-17:53:56.032 5b10 Level-0 table #174: started
+2025/12/29-17:53:56.043 5b10 Level-0 table #174: 36432 bytes OK
+2025/12/29-17:53:56.049 5b10 Delete type=0 #169
+2025/12/29-17:57:56.031 5b10 Level-0 table #176: started
+2025/12/29-17:57:56.036 5b10 Level-0 table #176: 36170 bytes OK
+2025/12/29-17:57:56.042 5b10 Delete type=0 #173
+2025/12/29-18:01:56.031 5b10 Level-0 table #178: started
+2025/12/29-18:01:56.041 5b10 Level-0 table #178: 36330 bytes OK
+2025/12/29-18:01:56.048 5b10 Delete type=0 #175
+2025/12/29-18:05:56.032 5b10 Level-0 table #180: started
+2025/12/29-18:05:56.042 5b10 Level-0 table #180: 36442 bytes OK
+2025/12/29-18:05:56.049 5b10 Delete type=0 #177
+2025/12/29-18:05:56.049 5b10 Compacting 4@0 + 2@1 files
+2025/12/29-18:05:56.129 5b10 Generated table #181@0: 15 keys, 4209841 bytes
+2025/12/29-18:05:56.135 5b10 Generated table #182@0: 53 keys, 151098 bytes
+2025/12/29-18:05:56.135 5b10 Compacted 4@0 + 2@1 files => 4360939 bytes
+2025/12/29-18:05:56.142 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-18:05:56.142 5b10 Delete type=2 #171
+2025/12/29-18:05:56.142 5b10 Delete type=2 #172
+2025/12/29-18:05:56.142 5b10 Delete type=2 #174
+2025/12/29-18:05:56.142 5b10 Delete type=2 #176
+2025/12/29-18:05:56.142 5b10 Delete type=2 #178
+2025/12/29-18:05:56.142 5b10 Delete type=2 #180
+2025/12/29-18:09:56.031 5b10 Level-0 table #184: started
+2025/12/29-18:09:56.042 5b10 Level-0 table #184: 36506 bytes OK
+2025/12/29-18:09:56.054 5b10 Delete type=0 #179
+2025/12/29-18:13:56.030 5b10 Level-0 table #186: started
+2025/12/29-18:13:56.041 5b10 Level-0 table #186: 36527 bytes OK
+2025/12/29-18:13:56.048 5b10 Delete type=0 #183
+2025/12/29-18:17:56.030 5b10 Level-0 table #188: started
+2025/12/29-18:17:56.041 5b10 Level-0 table #188: 36253 bytes OK
+2025/12/29-18:17:56.048 5b10 Delete type=0 #185
+2025/12/29-18:21:56.031 5b10 Level-0 table #190: started
+2025/12/29-18:21:56.041 5b10 Level-0 table #190: 38719 bytes OK
+2025/12/29-18:21:56.048 5b10 Delete type=0 #187
+2025/12/29-18:21:56.048 5b10 Compacting 4@0 + 2@1 files
+2025/12/29-18:21:56.124 5b10 Generated table #191@0: 15 keys, 4209821 bytes
+2025/12/29-18:21:56.131 5b10 Generated table #192@0: 53 keys, 151104 bytes
+2025/12/29-18:21:56.131 5b10 Compacted 4@0 + 2@1 files => 4360925 bytes
+2025/12/29-18:21:56.137 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-18:21:56.138 5b10 Delete type=2 #181
+2025/12/29-18:21:56.138 5b10 Delete type=2 #182
+2025/12/29-18:21:56.138 5b10 Delete type=2 #184
+2025/12/29-18:21:56.138 5b10 Delete type=2 #186
+2025/12/29-18:21:56.138 5b10 Delete type=2 #188
+2025/12/29-18:21:56.138 5b10 Delete type=2 #190
+2025/12/29-18:25:56.030 5b10 Level-0 table #194: started
+2025/12/29-18:25:56.041 5b10 Level-0 table #194: 36618 bytes OK
+2025/12/29-18:25:56.048 5b10 Delete type=0 #189
+2025/12/29-18:28:56.031 5b10 Level-0 table #196: started
+2025/12/29-18:28:56.042 5b10 Level-0 table #196: 40164 bytes OK
+2025/12/29-18:28:56.048 5b10 Delete type=0 #193
+2025/12/29-18:32:56.030 5b10 Level-0 table #198: started
+2025/12/29-18:32:56.041 5b10 Level-0 table #198: 36243 bytes OK
+2025/12/29-18:32:56.048 5b10 Delete type=0 #195
+2025/12/29-18:36:56.031 5b10 Level-0 table #200: started
+2025/12/29-18:36:56.042 5b10 Level-0 table #200: 38439 bytes OK
+2025/12/29-18:36:56.049 5b10 Delete type=0 #197
+2025/12/29-18:36:56.049 5b10 Compacting 4@0 + 2@1 files
+2025/12/29-18:36:56.143 5b10 Generated table #201@0: 15 keys, 4208952 bytes
+2025/12/29-18:36:56.150 5b10 Generated table #202@0: 53 keys, 151242 bytes
+2025/12/29-18:36:56.150 5b10 Compacted 4@0 + 2@1 files => 4360194 bytes
+2025/12/29-18:36:56.157 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/29-18:36:56.158 5b10 Delete type=2 #191
+2025/12/29-18:36:56.158 5b10 Delete type=2 #192
+2025/12/29-18:36:56.159 5b10 Delete type=2 #194
+2025/12/29-18:36:56.159 5b10 Delete type=2 #196
+2025/12/29-18:36:56.159 5b10 Delete type=2 #198
+2025/12/29-18:36:56.160 5b10 Delete type=2 #200
+2025/12/29-18:40:56.030 5b10 Level-0 table #204: started
+2025/12/29-18:40:56.040 5b10 Level-0 table #204: 36360 bytes OK
+2025/12/29-18:40:56.047 5b10 Delete type=0 #199
+2025/12/29-21:08:15.097 5b10 Level-0 table #206: started
+2025/12/29-21:08:15.110 5b10 Level-0 table #206: 36323 bytes OK
+2025/12/29-21:08:15.118 5b10 Delete type=0 #203
+2025/12/30-11:39:29.049 5b10 Level-0 table #208: started
+2025/12/30-11:39:29.060 5b10 Level-0 table #208: 23635 bytes OK
+2025/12/30-11:39:29.066 5b10 Delete type=0 #205
+2025/12/30-17:39:59.049 5b10 Level-0 table #210: started
+2025/12/30-17:39:59.129 5b10 Level-0 table #210: 4097659 bytes OK
+2025/12/30-17:39:59.137 5b10 Delete type=0 #207
+2025/12/30-17:39:59.143 5b10 Compacting 4@0 + 2@1 files
+2025/12/30-17:39:59.260 5b10 Generated table #211@0: 15 keys, 4099278 bytes
+2025/12/30-17:39:59.274 5b10 Generated table #212@0: 53 keys, 151234 bytes
+2025/12/30-17:39:59.274 5b10 Compacted 4@0 + 2@1 files => 4250512 bytes
+2025/12/30-17:39:59.281 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/12/30-17:39:59.282 5b10 Delete type=2 #201
+2025/12/30-17:39:59.282 5b10 Delete type=2 #202
+2025/12/30-17:39:59.283 5b10 Delete type=2 #204
+2025/12/30-17:39:59.283 5b10 Delete type=2 #206
+2025/12/30-17:39:59.283 5b10 Delete type=2 #208
+2025/12/30-17:39:59.283 5b10 Delete type=2 #210
+2025/12/31-13:55:19.186 5b10 Level-0 table #214: started
+2025/12/31-13:55:19.200 5b10 Level-0 table #214: 15181 bytes OK
+2025/12/31-13:55:19.209 5b10 Delete type=0 #209
+2025/12/31-21:03:18.054 5b10 Level-0 table #216: started
+2025/12/31-21:03:18.223 5b10 Level-0 table #216: 4082513 bytes OK
+2025/12/31-21:03:18.231 5b10 Delete type=0 #213
+2026/01/02-00:24:39.913 5b10 Level-0 table #218: started
+2026/01/02-00:24:40.007 5b10 Level-0 table #218: 4037108 bytes OK
+2026/01/02-00:24:40.015 5b10 Delete type=0 #215
+2026/01/03-11:30:09.529 5b10 Level-0 table #220: started
+2026/01/03-11:30:09.704 5b10 Level-0 table #220: 4038736 bytes OK
+2026/01/03-11:30:09.713 5b10 Delete type=0 #217
+2026/01/03-11:30:09.717 5b10 Compacting 4@0 + 2@1 files
+2026/01/03-11:30:09.978 5b10 Generated table #221@0: 15 keys, 4040932 bytes
+2026/01/03-11:30:09.992 5b10 Generated table #222@0: 53 keys, 151262 bytes
+2026/01/03-11:30:09.992 5b10 Compacted 4@0 + 2@1 files => 4192194 bytes
+2026/01/03-11:30:09.998 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/01/03-11:30:09.999 5b10 Delete type=2 #211
+2026/01/03-11:30:09.999 5b10 Delete type=2 #212
+2026/01/03-11:30:09.999 5b10 Delete type=2 #214
+2026/01/03-11:30:09.999 5b10 Delete type=2 #216
+2026/01/03-11:30:09.999 5b10 Delete type=2 #218
+2026/01/03-11:30:09.999 5b10 Delete type=2 #220
+2026/01/04-15:02:14.036 5b0f Level-0 table #224: started
+2026/01/04-15:02:14.118 5b0f Level-0 table #224: 4050792 bytes OK
+2026/01/04-15:02:14.127 5b0f Delete type=0 #219
+2026/01/05-12:11:09.632 5b0f Level-0 table #226: started
+2026/01/05-12:11:09.638 5b0f Level-0 table #226: 29029 bytes OK
+2026/01/05-12:11:09.645 5b0f Delete type=0 #223
+2026/01/05-15:44:31.167 5b10 Level-0 table #228: started
+2026/01/05-15:44:31.292 5b10 Level-0 table #228: 4054289 bytes OK
+2026/01/05-15:44:31.302 5b10 Delete type=0 #225
+2026/01/06-17:14:23.657 5b10 Level-0 table #230: started
+2026/01/06-17:14:23.827 5b10 Level-0 table #230: 4245659 bytes OK
+2026/01/06-17:14:23.836 5b10 Delete type=0 #227
+2026/01/06-17:14:23.839 5b10 Compacting 4@0 + 2@1 files
+2026/01/06-17:14:24.062 5b10 Generated table #231@0: 15 keys, 4243987 bytes
+2026/01/06-17:14:24.074 5b10 Generated table #232@0: 54 keys, 151489 bytes
+2026/01/06-17:14:24.075 5b10 Compacted 4@0 + 2@1 files => 4395476 bytes
+2026/01/06-17:14:24.081 5b10 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/01/06-17:14:24.081 5b10 Delete type=2 #221
+2026/01/06-17:14:24.081 5b10 Delete type=2 #222
+2026/01/06-17:14:24.081 5b10 Delete type=2 #224
+2026/01/06-17:14:24.081 5b10 Delete type=2 #226
+2026/01/06-17:14:24.082 5b10 Delete type=2 #228
+2026/01/06-17:14:24.082 5b10 Delete type=2 #230

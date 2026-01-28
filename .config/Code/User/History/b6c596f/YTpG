@@ -1,0 +1,65 @@
+{
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "height": 40,
+  "spacing": 2,
+
+  "modules-left": ["hyprland/workspaces"], 
+  "modules-center": [], 
+  "modules-right": [
+    "cpu", 
+    "memory", 
+    "pulseaudio", 
+    "network", 
+    "battery", 
+    "clock"
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate"
+  },
+
+  "cpu": {
+    "format": "CPU: {usage}% ",
+    "tooltip": true
+  },
+  
+  "memory": {
+    "format": "RAM: {}% ",
+    "tooltip": true
+  },
+
+  "pulseaudio": {
+    "format": "    {volume}%",
+    "tooltip": false,
+    "scroll-step": 5, 
+    "format-muted": " Muted",
+    "on-click": "pavucontrol"
+  },
+
+  "network": {
+    "format-wifi": "",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "",
+    "on-click": "nm-connection-editor"
+  },
+  
+  "battery": {
+    "states": {
+      "good": 90,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}    {capacity}%",
+    "format-charging": "⏚ {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "clock": {
+    "format": "{:%H:%M} ",
+    "format-alt": "{:%d/%m/%Y} ",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>"
+  }
+}

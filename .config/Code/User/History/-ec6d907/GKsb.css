@@ -1,0 +1,108 @@
+/* =================================================================
+// WAYBAR CSS - GRUVBOX RETRO ANIME (ILHAS DUPLAS)
+// ================================================================= */
+
+/* --- VARIÁVEIS GRUVBOX --- */
+@define-color base00 #282828; /* Fundo principal Dark */
+@define-color base01 #3c3836; /* Fundo Medium (Cor das Ilhas) */
+@define-color base02 #504945; /* Fundo Light Medium */
+@define-color base03 #665c54; /* Suave */
+@define-color base04 #bdae93; /* Texto Suave */
+@define-color base07 #ebdbb2; /* Texto Padrão (Foreground) */
+@define-color yellow #fabd2f; /* Amarelo (Destaque Retro) */
+@define-color red    #fb4934; /* Vermelho (Foco/Alerta) */
+@define-color orange #fe8019; /* Laranja (Clock/Acentos) */
+
+/* 1. ESTILO GERAL */
+#waybar {
+    background-color: transparent; /* Deixa as ilhas flutuarem */
+    color: @base07; 
+    font-family: "UbuntuMono Nerd Font", "Ubuntu Mono", monospace;
+    font-size: 16px;
+}
+
+/* 2. ILHA ESQUERDA (WORKSPACES) */
+.modules-left {
+    background-color: @base01;
+    border-radius: 12px;
+    margin: 5px 0 5px 10px;
+    padding: 0 5px;
+    border: 1px solid @base02;
+}
+
+/* 3. ILHA DIREITA (STATUS) */
+.modules-right {
+    background-color: @base01;
+    border-radius: 12px;
+    margin: 5px 10px 5px 0;
+    padding: 0 10px;
+    border: 1px solid @base02;
+}
+
+/* 4. WORKSPACES */
+#workspaces button {
+    background-color: transparent;
+    color: @base04;
+    padding: 0 8px;
+}
+
+#workspaces button.active {
+    color: @yellow;
+    border-bottom: 2px solid @yellow;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+/* 5. MÓDULOS DE STATUS - REGRAS GERAIS */
+#cpu, #memory, #network, #battery, #pulseaudio, #clock {
+    padding: 0 12px;
+    background-color: transparent;
+}
+
+/* Divisores sutis entre módulos (exceto no último) */
+#cpu, #memory, #pulseaudio, #network, #battery {
+    border-right: 1px solid @base02;
+}
+
+/* 6. RELÓGIO (O TOQUE FINAL) */
+#clock {
+    color: @orange;
+    font-weight: bold;
+    min-width: 80px; /* Garante que o texto tenha espaço */
+}
+
+/* 7. ESTADOS ESPECIAIS */
+#pulseaudio.muted {
+    color: @base03;
+}
+
+#battery.warning {
+    color: @orange;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        background-color: @red;
+        color: @base00;
+    }
+}
+
+/* Efeito Hover nos módulos da direita */
+.modules-right > widget > * {
+    transition: all 0.3s ease;
+}
+
+.modules-right > widget > *:hover {
+    background-color: rgba(250, 189, 47, 0.15);
+}

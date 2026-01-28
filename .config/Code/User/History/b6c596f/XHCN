@@ -1,0 +1,103 @@
+// =================================================================
+// WAYBAR CONFIG - HUD EVA STATUS (VERSÃO REGENERADA)
+// Minimalista, Funcional e Estável.
+// =================================================================
+{
+  "layer": "bottom",
+  "position": "bottom",
+  "mod": "dock",
+  "height": 40,
+  "spacing": 2,
+
+  // ESQUERDA: Apenas Workspaces (Números)
+  "modules-left": ["hyprland/workspaces"], 
+  
+  // CENTRO: Limpo, focado no minimalismo
+  "modules-center": [], 
+  
+  // DIREITA: Status Completo (Performance, Áudio, Rede, Bateria, Relógio)
+  "modules-right": [
+    "cpu", 
+    "memory", 
+    "pulseaudio", 
+    "network", 
+    "battery", 
+    "clock"
+  ],
+
+  // --- MÓDULOS ---
+  
+  "hyprland/workspaces": {
+    "format": "{name}", // Mostra APENAS o número do Workspace
+    "on-click": "activate"
+  },
+
+  "cpu": {
+    "format": "CPU: {usage}% ", // Ícone Nerd Font () para garantir rendering
+    "tooltip": true
+  },
+  
+  "memory": {
+    "format": "RAM: {}% ", // Ícone Nerd Font () para RAM
+    "tooltip": true
+  },
+
+  "pulseaudio": {
+    "format": "    {volume} %", // Ícone Nerd Font () para Volume
+    "tooltip": false,
+    "scroll-step": 5, 
+    "format-muted": " Muted", // Ícone de mudo
+    "format-icons": {
+        "default": ""
+    },
+    "on-click": "pavucontrol" // Abre o Pavucontrol ao clicar
+  },
+
+  "network": {
+    "format-wifi": "", // Ícone Nerd Font () para Wi-Fi, sem ESSID
+    "format-ethernet": "󰈀",
+    "format-disconnected": "", // Ícone de alerta
+    "format-icons": {
+        "default": "",
+        "connected": "",
+        "disconnected": "",
+        "ethernet": "󰈀"
+    },
+    "on-click": "nm-connection-editor" // Abre o Gerenciador de Rede
+  },
+  
+  "battery": {
+    "states": {
+      "good": 90,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}    {capacity}%",
+    "format-charging": "⏚ {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+"clock": {
+    "format": "{:%H:%M} ",
+    "format-alt": "{:%A, %B %d, %Y (%R)} ",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode"          : "month",
+      "mode-mon-col"  : 3,
+      "weeks-pos"     : "right",
+      "on-scroll"     : 1,
+      "format": {
+        "months":     "<span color='#ffead3'><b>{}</b></span>",
+        "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+        "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions":  {
+      "on-click-right": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  }
+}

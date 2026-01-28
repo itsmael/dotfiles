@@ -1,0 +1,108 @@
+# =================================================================
+# HYPRLAND CONFIG - EVA-01 CYBERPUNK THEME (VERSÃO FINAL)
+# Baseado na sua configuração original + Ricing Estético.
+# =================================================================
+
+# --- SETUP DE VARIÁVEIS ---
+$terminal = kitty
+$fileManager = dolphin
+$menu = wofi --show drun
+$mainMod = alt # Mantido como seu 'alt' original
+
+# Variável de Imagem (Ajuste o caminho!)
+$wallpaper_path = ~/.config/backgrounds/eva_asukasunset.jpg 
+
+# --- AUTOSTART ---
+# Removida a execução múltipla na mesma linha para maior estabilidade
+exec-once = waybar
+exec-once = hyprpaper
+exec-once = hyprlock
+exec-once = hypridle
+
+# --- ENVIRONMENT VARIABLES ---
+env = XCURSOR_SIZE,24
+env = HYPRCURSOR_SIZE,24
+
+
+#####################
+### LOOK AND FEEL ###
+#####################
+
+# https://wiki.hypr.land/Configuring/Variables/#general
+general {
+    gaps_in = 5           # Aumento de 1 para 5 (Estética)
+    gaps_out = 10         # Aumento de 4 para 10 (Estética)
+
+    border_size = 4       # Aumento de 1 para 4 (Borda de Controle EVA)
+
+    # CORES: Roxo Intenso (Ativo) e Cinza Escuro (Inativo)
+    col.active_border = rgb(8B008B) 
+    col.inactive_border = rgb(2C3E50) 
+
+    resize_on_border = true
+    allow_tearing = false
+
+    layout = dwindle
+}
+
+# Regra para remover a borda do terminal Kitty (mantida da sua config original)
+windowrulev2 = noborder, class:^(kitty)$
+
+# https://wiki.hypr.land/Configuring/Variables/#decoration
+decoration {
+    rounding = 8 # Aumento de 1 para 8 (Cantos suaves Cyberpunk)
+    rounding_power = 2
+
+    # Opacidade Mantida em 1.0 para ESTABILIDADE e Contraste
+    active_opacity = 1.0
+    inactive_opacity = 1.0 
+
+    # SHADOW (Adicionado Sombra para profundidade do HUD)
+    shadow {
+        enabled = true # Ativado para efeito flutuante
+        range = 4
+        render_power = 3
+        color = rgba(1a1a2e99) 
+    }
+
+    # BLUR (Efeito de Vidro de Cabine)
+    blur {
+        enabled = true # Ativado para o efeito de "vidro de cabine"
+        size = 5       # Aumentado para melhor desfoque
+        passes = 2
+        vibrancy = 0.1696
+    }
+}
+
+# https://wiki.hypr.land/Configuring/Variables/#animations
+animations {
+    enabled = yes # Mantido como 'yes' para estabilidade
+
+    # Curvas para movimento robótico/rápido (substituindo o padrão)
+    bezier = slow_ease, 0.5, 0.0, 0.5, 1.0 
+    
+    # Animações Rápidas (SPEED ajustada para ser mais instantânea)
+    animation = global, 1, 10, default
+    animation = windows, 1, 7, slow_ease, slide
+    animation = windowsIn, 1, 7, slow_ease, popin 80%
+    animation = windowsOut, 1, 7, slow_ease, slide
+    animation = workspaces, 1, 6, slow_ease # Movimento de workspace ajustado
+    animation = layers, 1, 4, slow_ease
+    
+    # As demais animações do seu arquivo original foram removidas para simplificar e focar no tema principal.
+}
+
+
+# --- DWINDLE, MASTER, MISC, INPUT, GESTURES, DEVICE, KEYBINDS ---
+# ESTAS SEÇÕES FORAM MANTIDAS INALTERADAS PARA PRESERVAR SEUS AJUSTES DE HARDWARE E ATALHOS.
+
+
+##############################
+### WINDOWS AND WORKSPACES ###
+##############################
+
+# Ignorando maximização de apps (mantido da sua config)
+windowrule = suppressevent maximize, class:.*
+
+# Regras de XWayland (mantidas da sua config)
+windowrule = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0

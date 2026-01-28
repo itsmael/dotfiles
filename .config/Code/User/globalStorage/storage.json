@@ -1,0 +1,88 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "678c4b95469be9f962316b47f0d6743a13cac71258aec277df5095eddad57e84",
+    "telemetry.devDeviceId": "af6e00d9-9641-4fc4-8c57-5bae832c8571",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1769633292756"
+            }
+        ]
+    },
+    "windowControlHeight": 50,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/odin/.config": "__default__profile__",
+            "file:///home/odin/.config/waybar": "__default__profile__",
+            "file:///home/odin/.config/hypr": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1769633292756": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/odin/.config/Code/Backups/1769633292756",
+            "uiState": {
+                "mode": 1,
+                "x": 1925,
+                "y": 45,
+                "width": 3430,
+                "height": 1390,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1d2021",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ebdbb2",
+            "background": "#1d2021",
+            "editorBackground": "#1d2021",
+            "titleBarBackground": "#1d2021",
+            "activityBarBackground": "#1d2021",
+            "activityBarBorder": "#3c3836",
+            "sideBarBackground": "#1d2021",
+            "sideBarBorder": "#3c3836",
+            "statusBarBackground": "#1d2021",
+            "statusBarBorder": "#3c3836",
+            "statusBarNoFolderBackground": "#1d2021"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 199,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "c80030ef3992ebd254bc9fe9945278a6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "86afc9293647834f4055d018fbf1bd8e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "25959f4be7bad548c5d68d58fba9b895": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
